@@ -4,19 +4,19 @@ const data = {
 
 comfort: [
 "Hey pillu… bad days happen, but you don’t have to carry it alone ❤️",
-"Baccha, come sit with me… everything will feel lighter.",
+"Baccha, you are awesome and very amazing, no one can do what you do baby.",
 "Buba, it's okay to feel tired today… just rest baby.",
-"You did your best today baby, I'm proud of you.",
+"You did your best today and you do your best everyday baby, I'm proud of you.",
 "Pillu, your peace matters more than anything else.",
 "I'm always here with you no matter what ❤️"
 ],
 
 smile: [
-"You look extra cute when you're angry pillu 😌",
-"If bad days were people I'd fight them for you baccha 😤",
-"Baby you're my favourite human ❤️",
-"Buba you + chai + me = perfect mood fix ☕",
-"Emergency smile delivery for my pillu 😌"
+"You look extra cute when you're angry pillu",
+"Jab me tujhse mila 1 niiiiiineee ka tha",
+"Baby you're my favourite human",
+"Bubaa tumhi mazaa millionaire aahat.",
+"Emergency smile delivery for my pillu "
 ],
 
 love: [
