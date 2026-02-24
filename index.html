@@ -1,52 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>For You ❤️</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>For My Baby ❤️</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <div class="container">
 
-<h1>Hey ❤️</h1>
-<p class="subtitle">I know today was hard. I'm here with you.</p>
+<h1>Hey baby ❤️</h1>
+<p class="subtitle">I know today was hard pillu… I'm here with you.</p>
 
 <div class="card-container">
 
-<button class="card" onclick="show('stress')">
-💌 I'm stressed
-</button>
-
-<button class="card" onclick="show('quit')">
-🌙 I feel like quitting
-</button>
-
-<button class="card" onclick="show('motivation')">
-💪 I need strength
-</button>
-
-<button class="card" onclick="show('smile')">
-😂 Make me smile
-</button>
-
-<button class="card" onclick="startBreathing()">
-🌱 Calm me down
-</button>
+<button class="card" onclick="showMessage('comfort')">💌 Talk to me</button>
+<button class="card" onclick="showHug()">🤗 Send me a hug</button>
+<button class="card" onclick="showMessage('smile')">😂 Make me smile</button>
+<button class="card" onclick="startBreathing()">🌙 Calm down with me</button>
+<button class="card" onclick="showMessage('love')">💗 One more message</button>
 
 </div>
 
 <div id="result"></div>
 
+<!-- Breathing Animation -->
 <div id="breathing" class="hidden">
 <div class="circle"></div>
-<p>Breathe in… breathe out</p>
+<p>Breathe with me baby… in… out…</p>
 </div>
 
+</div>
+
+<!-- Hug Popup -->
+<div id="hugPopup" class="hug-popup hidden">
+<div class="hug-box">
+<img id="hugImage" src="">
+<p id="hugText"></p>
+<button onclick="closeHug()">ok ❤️</button>
+</div>
 </div>
 
 <div class="floating-hearts"></div>
 
 <script src="script.js"></script>
+
 </body>
 </html>
