@@ -2,35 +2,41 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>For My Pillu ❤️</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Baby ❤️</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="wrapper">
+<div class="container">
 
-<h1>hey pillu ❤️</h1>
+<h1>Hey baby ❤️</h1>
+<p class="subtitle">I know today was hard pillu… I'm here with you.</p>
 
-<p class="intro">
-I heard today was hard baby…  
-so I made this for you.  
-I'm always here with you 🤍
-</p>
-
-<button class="main-btn" onclick="showLove()">
-Need a hug? 🤗
-</button>
-
-<div id="content" class="hidden">
-<img id="loveImage">
-<p id="loveText"></p>
+<div class="actions">
+<button onclick="showMessage('comfort')">💌 Talk to me</button>
+<button onclick="showHug()">🤗 Send me a hug</button>
+<button onclick="showMessage('smile')">😂 Make me smile</button>
+<button onclick="showMessage('love')">💗 One more message</button>
 </div>
 
+<div id="result"></div>
+
+</div>
+
+<!-- Hug Popup -->
+<div id="hugPopup" class="hug-popup hidden">
+  <div class="hug-box">
+    <img id="hugImage" src="">
+    <p id="hugText"></p>
+    <button onclick="closeHug()">ok ❤️</button>
+  </div>
 </div>
 
 <div class="hearts"></div>
 
 <script src="script.js"></script>
+
 </body>
 </html>
