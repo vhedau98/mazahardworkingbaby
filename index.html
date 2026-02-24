@@ -2,49 +2,35 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>For My Baby ❤️</title>
+<title>For My Pillu ❤️</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="container">
+<div class="wrapper">
 
-<h1>Hey baby ❤️</h1>
-<p class="subtitle">I know today was hard pillu… I'm here with you.</p>
+<h1>hey pillu ❤️</h1>
 
-<div class="card-container">
+<p class="intro">
+I heard today was hard baby…  
+so I made this for you.  
+I'm always here with you 🤍
+</p>
 
-<button class="card" onclick="showMessage('comfort')">💌 Talk to me</button>
-<button class="card" onclick="showHug()">🤗 Send me a hug</button>
-<button class="card" onclick="showMessage('smile')">😂 Make me smile</button>
-<button class="card" onclick="startBreathing()">🌙 Calm down with me</button>
-<button class="card" onclick="showMessage('love')">💗 One more message</button>
+<button class="main-btn" onclick="showLove()">
+Need a hug? 🤗
+</button>
 
-</div>
-
-<div id="result"></div>
-
-<!-- Breathing Animation -->
-<div id="breathing" class="hidden">
-<div class="circle"></div>
-<p>Breathe with me baby… in… out…</p>
+<div id="content" class="hidden">
+<img id="loveImage">
+<p id="loveText"></p>
 </div>
 
 </div>
 
-<!-- Hug Popup -->
-<div id="hugPopup" class="hug-popup hidden">
-<div class="hug-box">
-<img id="hugImage" src="">
-<p id="hugText"></p>
-<button onclick="closeHug()">ok ❤️</button>
-</div>
-</div>
-
-<div class="floating-hearts"></div>
+<div class="hearts"></div>
 
 <script src="script.js"></script>
-
 </body>
 </html>
